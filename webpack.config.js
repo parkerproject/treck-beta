@@ -8,11 +8,11 @@ module.exports = {
   devtool: 'inline-source-map',
   entry: [                                              // webpack will start consuming from these file(s)
     'webpack-hot-middleware/client',
-    './app/index.jsx'
+    './app/index.js'
   ],
   output: {
     path: path.join(__dirname, 'build'),                // output path
-    filename: 'example.js',                             // compiled js (single file only)
+    filename: 'treck.js',                             // compiled js (single file only)
     publicPath: '/'
   },
   resolve: {
@@ -39,7 +39,7 @@ module.exports = {
   },
   postcss: [autoprefixer],
   plugins: [
-    new ExtractTextPlugin('example.css', { allChunks: true }),  // compiled css (single file only)
+    new ExtractTextPlugin('treck.css', { allChunks: true }),  // compiled css (single file only)
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
     new webpack.DefinePlugin({
