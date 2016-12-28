@@ -1,7 +1,7 @@
 {
-  "name": "react-bolierplate",
+  "name": "Treck",
   "version": "1.0.0",
-  "description": "Example using react-flexbox-grid, redux, and other goodies",
+  "description": "A dashboard for creative people to process, manage and catalog their images.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parkerproject/react-bolierplate.git"
+    "url": "git+https://github.com/parkerproject/treck.git"
   },
   "keywords": [
     "react",
@@ -49,12 +49,12 @@
     "webpack-dev-middleware": "^1.2.0",
     "webpack-hot-middleware": "^2.4.1"
   },
-  "author": "parkerproject ( credits to roylee0704 )",
+  "author": "parkerproject",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/parkerproject/react-bolierplate/issues"
+    "url": "https://github.com/parkerproject/treck/issues"
   },
-  "homepage": "https://github.com/parkerproject/react-bolierplate#readme",
+  "homepage": "https://github.com/parkerproject/treck#readme",
   "dependencies": {
     "@blueprintjs/core": "^1.4.0",
     "react": "^0.14",
