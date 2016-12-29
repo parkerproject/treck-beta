@@ -1,5 +1,7 @@
 import React from 'react';
 
+import style from './style.scss';
+
 const Header = () => (
   <header className="site-header">
     <div className="container-fluid">
@@ -7,6 +9,17 @@ const Header = () => (
       <button className="hamburger hamburger--htla">
         <span>toggle menu</span>
       </button>
+      <div className={style.search}>
+        <div className="col-sm-12">
+          <p className="form-control-static">
+            <input
+              type="text"
+              className="form-control"
+              id="inputPassword"
+              placeholder="Search for images by color, keyword, tag, style"
+            /></p>
+        </div>
+      </div>
 
       <div className="site-header-shown">
         <div className="dropdown user-menu">

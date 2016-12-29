@@ -20,7 +20,7 @@ const Sidebar = () => (
       <li className="gold">
         <Link to="/tags">
           <i className="font-icon font-icon-picture-2" />
-          <span className="lbl">Images</span>
+          <span className="lbl">Image Catalog</span>
         </Link>
       </li>
       <li className="green">
