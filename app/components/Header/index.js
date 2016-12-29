@@ -1,7 +1,5 @@
 import React from 'react';
 
-import style from './style.scss';
-
 const Header = () => (
   <header className="site-header">
     <div className="container-fluid">
